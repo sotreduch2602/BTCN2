@@ -22,7 +22,7 @@
                           <p>Số Thứ Nhất</p>
                       </div>
                       <div class="col-4">
-                          <input type="text" class="inputNumber1" id="x">
+                          <input type="text" class="inputNumber1" name="x" id="x" value="<%= input1 %>">
                       </div>
                   </div>
                   <div class="row align-items-center">
@@ -30,7 +30,7 @@
                           <p>Số Thứ Hai</p>
                       </div>
                       <div class="col-4">
-                          <input type="text" class="inputNumber2" id="y">
+                          <input type="text" class="inputNumber2" name="y" id="y" value="<%= input2 %>">
                       </div>
                   </div>
                   <div class="row align-items-center ">
@@ -38,7 +38,7 @@
                           <p>Kết quả</p>
                       </div>
                       <div class="col-4">
-                          <input type="text" id="K">
+                          <input type="text" id="K" value="<%= Ketqua %>">
                       </div>
                   </div>
                   <div class="row align-items-center">
@@ -46,7 +46,7 @@
                           <p>Thông báo</p>
                       </div>
                       <div class="col-8 mt-3">
-                          <p class="T text-danger" id="T"></p>
+                          <p class="T text-danger" id="T"><%= Thongbao %></p>
                       </div>
                   </div>
               </div>
@@ -56,14 +56,14 @@
                   <div class="row align-items-center">
                       <div class="col mt-3">
                           <p>
-                              <input type="radio" id="cong" name="calculate">
+                              <input type="radio" id="cong" name="calculate" value="cong">
                               Cộng
                           </p>
                       </div>
                       
                       <div class="col mt-3">
                           <p>
-                              <input type="radio" id="tru" name="calculate">
+                              <input type="radio" id="tru" name="calculate" value="tru">
                               Trừ
                           </p>
                       </div>
@@ -71,26 +71,24 @@
                   <div class="row align-items-center">
                       <div class="col mt-3">
                           <p>
-                              <input type="radio" id="nhan" name="calculate">
+                              <input type="radio" id="nhan" name="calculate" value="nhan">
                               Nhân
                           </p>
                       </div>
                       
                       <div class="col mt-3">
                           <p>
-                              <input type="radio" id="chia" name="calculate">
+                              <input type="radio" id="chia" name="calculate" value="chia">
                               Chia
                           </p>
                       </div>
                   </div>
                   <div class="row w-50 align-items-center">
-                      <span class="btn btn-outline-success mt-2 ms-5" type="submit">Tính</span>
+                      <button class="btn btn-outline-success mt-2 ms-5" type="submit">Tính</button>
                   </div>
               </div>
           </div>
       </form>
   </div>
-
-  <script src="\javascripts\app.js"></script>
   </body>
 </html>

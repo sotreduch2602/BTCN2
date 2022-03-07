@@ -39,7 +39,7 @@ input2.addEventListener('blur',function(){
     }
 })
 
-tinh.addEventListener('click',function(){
+/*tinh.addEventListener('click',function(){
     var x = parseInt(document.getElementById("x").value)
     console.log(x)
     var y = parseInt(document.getElementById("y").value)
@@ -120,3 +120,4 @@ tinh.addEventListener('click',function(){
         }
     }
 })
+*/
